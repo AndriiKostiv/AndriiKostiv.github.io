@@ -1,3 +1,3 @@
 # Test for GitHub Pages 
 
-Online demo: https://AndreiCostiv.github.io
+Online demo: https://andreicostiv.github.io
