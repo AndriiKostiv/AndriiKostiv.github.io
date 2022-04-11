@@ -1,13 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Andrei Costiv</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome/css/all.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("8wpIaqtCaaWEBT8f2");
+    })();
+  </script>
 </head>
+
 <body>
-    <h1>Hello world</h1>
-    <p>this page was created for GitHub Pages</p>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Curriculum Vitae</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Andrei Costiv</h1>
+      <p>I'm <span class="typed" data-typed-items="Web Developer, JavaScript Developer"></span></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/andrei-costiv" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/andreicostiv" target="_blank" class="github"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-7 pt-4 pt-lg-0 content">
+            <h3> Web Developer</h3>
+            <p>
+              I'm passionate about developing highly scalable web platforms,
+              complex full-stack web applications, that are user-friendly, clear,
+              on-brand and usable. Cannot imagine my day without writing a
+              few lines of code.
+            </p>
+
+            <a download href="https://costivandrei.tech/cv/cv.pdf" target="_blank" class="btn bg-primary text-light">
+              <i class="fa fa-download"></i>
+              Download CV
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg" >
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="d-flex w-100 justify-content-around">
+
+            <div class="progress">
+              <span class="skill" title="HTML"><img src="./assets/img/icons/html.svg" width="32" alt="html"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="CSS"><img src="./assets/img/icons/css.svg" width="32" alt="css"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="SASS"><img src="./assets/img/icons/sass.svg" width="32" alt="sass"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="NodeJS"><img src="./assets/img/icons/nodejs.svg" width="32" alt="node.js"></span>
+            </div>
+
+          </div>
+
+          <div class="d-flex w-100 justify-content-around">
+            <div class="progress">
+              <span class="skill" title="JavaScript"><img src="./assets/img/icons/js.svg" width="32" alt="javascript"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="React.JS"><img src="./assets/img/icons/react.svg" width="32" alt="react.js"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="React-Spring"><img src="./assets/img/icons/react-spring.svg" width="32" alt="react-spring"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="Redux"><img src="./assets/img/icons/redux.svg" width="32" alt="redux"></span>
+            </div>
+
+          </div>
+
+          <div class="d-flex w-100 justify-content-around">
+            <div class="progress">
+              <span class="skill" title="MaterialUI"><img src="./assets/img/icons/mui.svg" width="32" alt="MaterialUI"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="Next.js"><img src="./assets/img/icons/next.svg" width="32" alt="Next.JS"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="JQuery"><img src="./assets/img/icons/JQuery.svg" width="32" alt="JQuery"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill" title="Bootstrap"><img src="./assets/img/icons/bootstrap.svg" width="32" alt="Bootstrap"></span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Curriculum Vitae</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+              <h4>Front End developer</h4>
+              <h5>2017 - 2019</h5>
+              <p><em>Foxinity, Ivano-Frankivsk, UA </em></p>
+              <ul>
+                <li>Participated in the development of the commercial online store specializing in cosmetics and hygiene products.</li>
+                <li>Also took part in developing a custom admin dashboard.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full stack developer</h4>
+              <h5>2021-2022</h5>
+              <p><em>ItCareerSwitch, UK</em></p>
+              <ul>
+                <li>Took part in coding trainship. This course allowed me to improve my skills.</li>
+                <li>I learned how to create back end projects. Developed a set of applications that allowed me to practise my skills of both client and server side development.</li>
+                <li>Also I got knowlege of TDD (test driven development).</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Software Engineering</h4>
+              <h5>2017 - 2021</h5>
+              <p><em>National Technical University of Oil and Gas</em></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="py-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                  <img
+                          src="assets/img/portfolio/Rient.svg"
+                          class="card-img-top"
+                          alt="preview"
+                  />
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <h5 class="card-title">Rient</h5>
+                    <p class="card-text">
+                      An application for Reddit allows viewing different categories of subreddits. Usage of Redux
+                      simplified state management. As additional functionality, users can search for specific subreddits.
+                      Also, view top-rated subreddits.
+                    </p>
+
+                    <section class="mx-1 my-2 p-0">
+                      <img src="./assets/img/icons/html.svg" class="my-1" height="30" alt="HTML">
+                      <img src="./assets/img/icons/sass.svg" class="my-1" height="30" alt="SASS">
+                      <img src="./assets/img/icons/mui.svg" class="my-1" height="30" alt="materialUI">
+                      <img src="./assets/img/icons/js.svg" class="my-1" height="30" alt="JavaScript">
+                      <img src="./assets/img/icons/react.svg" class="my-1" height="30" alt="REACT.JS">
+                      <img src="./assets/img/icons/redux.svg" class="my-1" height="30" alt="REDUX">
+                    </section>
+
+                    <a href="https://rient-app.vercel.app" target="_blank" title="Rient app" class="btn btn-primary mt-auto">Live</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                  <img
+                          src="assets/img/portfolio/CompanyDirectory.svg"
+                          class="card-img-top"
+                          alt="preview"
+                  />
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <h5 class="card-title">Company directory</h5>
+                    <p class="card-text">
+                      The company directory allows clients to manipulate the database using a simple interface. The
+                      client side of an application consists of three tabs (employees, departments, locations) that
+                      represent its data and functionality. The server side is responsible for communicating between the
+                      database and the client side. Also, the server-side is used for CRUD operations: create, update,
+                      delete.
+                    </p>
+
+                    <section class="mx-1 my-2 p-0">
+                      <img src="./assets/img/icons/html.svg" class="my-1" height="30" alt="HTML">
+                      <img src="./assets/img/icons/css.svg" class="my-1" height="30" alt="CSS">
+                      <img src="./assets/img/icons/bootstrap.svg" class="my-1" height="30" alt="BOOTSTRAP">
+                      <img src="./assets/img/icons/js.svg" class="my-1" height="30" alt="JavaScript">
+                      <img src="./assets/img/icons/JQuery.svg" class="my-1" height="30" alt="JQuery">
+                      <img src="./assets/img/icons/php.svg" class="my-1" height="30" alt="PHP">
+                    </section>
+                    <a href="https://rient-app.vercel.app" target="_blank" title="Rient app" class="btn btn-primary mt-auto">Live</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                  <img
+                          src="assets/img/portfolio/Gazetteer.svg"
+                          class="card-img-top"
+                          alt="preview"
+                  />
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <h5 class="card-title">Gazetteer</h5>
+                    <p class="card-text">
+                      Gazetteer provides profiling for all countries. The application uses the Leafletjs library
+                      and a set of third-party APIs. It has a mobile-orientated design but
+                      works well on all kinds of devices.
+                    </p>
+
+                    <section class="mx-1 my-2 p-0">
+                      <img src="./assets/img/icons/html.svg" class="my-1" height="30" alt="HTML">
+                      <img src="./assets/img/icons/css.svg" class="my-1" height="30" alt="CSS">
+                      <img src="./assets/img/icons/bootstrap.svg" class="my-1" height="30" alt="BOOTSTRAP">
+                      <img src="./assets/img/icons/js.svg" class="my-1" height="30" alt="JavaScript">
+                      <img src="./assets/img/icons/JQuery.svg" class="my-1" height="30" alt="JQuery">
+                      <img src="./assets/img/icons/php.svg" class="my-1" height="30" alt="PHP">
+                    </section>
+                    <a href="https://rient-app.vercel.app" target="_blank" title="Rient app" class="btn btn-primary mt-auto">Live</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-lg-12 mt-5 mt-lg-0">
+
+            <form role="form" id="contact-form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Andrei Costiv</h3>
+      <div class="copyright">
+        &copy; Copyright <strong><span>My Resume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
